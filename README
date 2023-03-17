@@ -2,5 +2,36 @@ The page of original project: https://eecs281staff.github.io/p2-a-new-heap/
 
 How this modified version works:
 
-This project is to simulate the effects of two opposite ideologies on agents. I also provide the analysis of information sources. 
+This project is to simulate the effects of two opposite ideologies on agents with an analysis of information sources. 
 
+Example output: 
+
+Simulating...
+Information from the source 0 has Retroactive Interference with the information from the source 0 on agent 1. 38 information intensity disappears.
+Median information intensity lost on agent 1 at time 0 is 38.
+Median information intensity lost on agent 1 at time 1 is 38.
+Information from the source 0 has Retroactive Interference with the information from the source 0 on agent 0. 78 information intensity disappears.
+Median information intensity lost on agent 0 at time 2 is 78.
+Median information intensity lost on agent 1 at time 2 is 38.
+Information from the source 2 has Retroactive Interference with the information from the source 1 on agent 0. 38 information intensity disappears.
+Median information intensity lost on agent 0 at time 3 is 58.
+Median information intensity lost on agent 1 at time 3 is 38.
+Information from the source 2 has Retroactive Interference with the information from the source 2 on agent 0. 10 information intensity disappears.
+Information from the source 0 has Retroactive Interference with the information from the source 2 on agent 0. 22 information intensity disappears.
+Median information intensity lost on agent 0 at time 4 is 30.
+Median information intensity lost on agent 1 at time 4 is 38.
+---End of Simulation---
+Interference: 5
+---Agent Analysis---
+agent 0: support A
+agent 1: support A
+A_supporter% :1
+---Source Evaluation---
+Source 0 delievered 185 amount of A type information 69 amount of B type information, and 127/254 preserved.
+Source 1 delievered 19 amount of A type information 0 amount of B type information, and 0/19 preserved.
+Source 2 delievered 111 amount of A type information 24 amount of B type information, and 95/135 preserved.
+---Observer---
+An observer would see an optimal Proactive Interference on agent 0 with B at time 2 and A at time 3 with a priority difference of 43.
+An observer would see an optimal Retroactive Interference on agent 0 with A at time 2 and B at time 2 with a priority difference of 29.
+An observer would see an optimal Proactive Interference on agent 1 with B at time 0 and A at time 3 with a priority difference of 31.
+An observer would see an optimal Retroactive Interference on agent 1 with A at time 0 and B at time 0 with a priority difference of 17.
