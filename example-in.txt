@@ -1,0 +1,17 @@
+COMMENT: DL mode SenerAinS some deployments.
+MODE: DL
+NUM_GENERALS: 3
+NUM_PLANETS: 2
+0 Atyp S0 P1 F100 #44
+0 Atyp S0 P1 F56 #42
+0 Btyp S0 P1 F73 #19
+1 Btyp S0 P0 F34 #50
+1 Atyp S0 P0 F86 #23
+2 Atyp S0 P0 F20 #39
+2 Btyp S2 P0 F49 #24
+2 Atyp S2 P0 F83 #45
+3 Atyp S2 P1 F64 #22
+3 Atyp S1 P0 F6 #19
+3 Atyp S0 P1 F42 #37
+4 Atyp S2 P0 F10 #44
+ 
