@@ -12,7 +12,7 @@ A and B have the following features: B will interfere with A only when B's prior
 2. if B first, then A, we say that proactive interference (PI) happens
 
 ### How to run it:
-`make simulation`, then `./simulation < example-in.txt`
+`make simulation`, then `./simulation -vmgw < example-in.txt`; v for verbose, m for median information, g for source evaluation, w for observer mode. All optional
 
 ### Example output: 
 <img width="1031" alt="Screen Shot 2023-03-17 at 15 09 16" src="https://user-images.githubusercontent.com/69283640/226075514-7fef940d-f382-4541-9e86-614b763c42ac.png">
